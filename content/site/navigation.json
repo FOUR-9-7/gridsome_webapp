@@ -6,8 +6,8 @@
       "external": false
     },
     {
-      "name": "About",
-      "link": "/about-us",
+      "name": "Villagers",
+      "link": "/posts/villagers/",
       "external": false
     },
     {
@@ -29,11 +29,11 @@
           "link": "https://www.gridsome.org/docs",
           "external": true
         },
-         {
-           "name": "Internal Page ( About )",
-           "link": "/about-us",
-           "external": false
-         }
+        {
+          "name": "Internal Page ( About )",
+          "link": "/about-us",
+          "external": false
+        }
       ]
     }
   ],
@@ -41,7 +41,7 @@
     {
       "name": "Latest Posts",
       "link": "/",
-      "external" : false
+      "external": false
     },
     {
       "name": "Facebook",

@@ -3,7 +3,7 @@
       <content-header 
         :title="$static.metadata.siteName" 
         :sub="$static.metadata.siteDescription"
-        image="phoenix-han-Nqdh0G8rdCc-unsplash.jpg">
+        image="stardew-valley-expanded-113-1200x675.jpg">
       </content-header>
 
       <div class="container mx-auto">

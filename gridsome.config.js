@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  siteDescription: "An open-source framework to generate awesome pages",
+  siteName: 'Stardew Valley',
+  siteDescription: "You've inherited your grandfather's old farm plot in Stardew Valley.Armed with hand-me-down tools and a few coins, you set out to begin your new life!",
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -84,9 +84,9 @@ module.exports = {
         }],
         require('./packages/gridsome-plugin-remark-figure')
       ],
-      
+
       processImages: false
-      
+
     }
   },
   templates: {
@@ -111,6 +111,6 @@ module.exports = {
     }]
   },
   chainWebpack: config => {
-      config.resolve.alias.set('@pageImage', '@/assets/images');
+    config.resolve.alias.set('@pageImage', '@/assets/images');
   }
 }
