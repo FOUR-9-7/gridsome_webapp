@@ -10,6 +10,7 @@ module.exports = {
   siteUrl: 'https://FOUR-9-7.github.io',
   pathPrefix: '/gridsome_webapp',
 
+
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
