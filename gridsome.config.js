@@ -8,7 +8,7 @@ module.exports = {
   siteName: 'Stardew Valley',
   siteDescription: "You've inherited your grandfather's old farm plot in Stardew Valley.Armed with hand-me-down tools and a few coins, you set out to begin your new life!",
   siteUrl: 'https://FOUR-9-7.github.io',
-  pathPrefix: 'FOUR-9-7/gridsome_webapp',
+  pathPrefix: '/gridsome_webapp',
 
   plugins: [
     {
